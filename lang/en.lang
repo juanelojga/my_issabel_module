@@ -1,0 +1,7 @@
+<?php
+
+global $arrLangModule;
+
+$arrLangModule = [
+  'My Issabel Module' => 'My Issabel Module'
+];
