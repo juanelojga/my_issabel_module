@@ -8,8 +8,6 @@ class DeviceModel extends Model
 {
   /**
    * Count rows of table devices
-   * @param  string $extension  
-   * @param  string $description
    * @return array             
    */
   public function count()
@@ -21,11 +19,7 @@ class DeviceModel extends Model
   }
 
   /**
-   * Get sip devices
-   * @param  string $extension  
-   * @param  string $description
-   * @param  string $limit      
-   * @param  string $offset     
+   * Get sip devices    
    * @return array             
    */
   public function index()
