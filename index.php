@@ -23,7 +23,7 @@ function _moduleContent(&$smarty, $module_name)
   $dsn = generarDSNSistema('root', '');
   $model = new DeviceModel(new \paloDB($dsn));
 
-  $grid = new paloSantoGrid($smarty);
+  $grid = new \paloSantoGrid($smarty);
   $grid->setTitle($arrConf['module_title']);
   $grid->pagingShow(false);
 
